@@ -1,0 +1,27 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "Titulo": "Kimetsu No Yaiba",
+    "Descripcion": "El joven Tanjiro Kamado vive feliz con su madre ...",
+    "Tipo": "Serie",
+    "Year": 2020
+}
+
+###
+DELETE http://localhost:9000/api/2 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "Titulo": "SPY X FAM",
+    "Descripcion": "Una niña con telepata, un espia y una asesina...",
+    "Tipo": "Serie",
+    "Year": 2020
+}
